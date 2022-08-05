@@ -1,0 +1,55 @@
+.App {
+  width: 80vw;
+  height: 100vh;
+  margin: auto;
+}
+
+.main-container {
+  width: 100%;
+  background-color: lightblue;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.block1-style {
+  background-color: lightgrey;
+  padding: 5px;
+  margin: 5px;
+}
+
+.block2-style {
+  background-color: darkgrey;
+  padding: 5px;
+  margin: 5px;
+}
+
+.block3-style {
+  background-color: grey;
+  padding: 5px;
+  margin: 5px;
+}
+
+.NewsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MediaContainer {
+  column-count: 3;
+  column-gap: 5px;
+}
+
+.NewsFilter-list {
+  display: flex;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
